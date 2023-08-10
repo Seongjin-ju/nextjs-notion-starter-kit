@@ -1,41 +1,41 @@
 import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
-  // the site's root Notion page (required)
-  rootNotionPageId: '7875426197cf461698809def95960ebf',
+  // 사이트의 루트 Notion 페이지(필수)
+  rootNotionPageId: '4a210c8586944e1ab69e28a0f363af68',
 
-  // if you want to restrict pages to a single notion workspace (optional)
-  // (this should be a Notion ID; see the docs for how to extract this)
+  // 페이지를 단일 개념 작업 공간으로 제한하려는 경우(선택 사항)
+  // (이것은 Notion ID여야 합니다. 이것을 추출하는 방법은 문서를 참조하십시오)
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'Next.js Notion Starter Kit',
+  name: 'sjdev',
   domain: 'nextjs-notion-starter-kit.transitivebullsh.it',
-  author: 'Travis Fischer',
+  author: 'Ju Seongjin',
 
   // open graph metadata (optional)
   description: 'Example Next.js Notion Starter Kit Site',
 
   // social usernames (optional)
-  twitter: 'transitive_bs',
-  github: 'transitive-bullshit',
-  linkedin: 'fisch2',
+  github: 'Seongjin-ju',
+  // twitter: 'transitive_bs',
+  // linkedin: 'fisch2',
   // mastodon: '#', // optional mastodon profile URL, provides link verification
   // newsletter: '#', // optional newsletter URL
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
 
-  // default notion icon and cover images for site-wide consistency (optional)
-  // page-specific values will override these site-wide defaults
+  // 사이트 전체 일관성을 위한 기본 개념 아이콘 및 표지 이미지(선택 사항)
+  // 페이지별 값은 이러한 사이트 전체 기본값을 재정의합니다.
   defaultPageIcon: null,
   defaultPageCover: null,
   defaultPageCoverPosition: 0.5,
 
-  // whether or not to enable support for LQIP preview images (optional)
+  // LQIP 미리보기 이미지에 대한 지원 활성화 여부(선택 사항)
   isPreviewImageSupportEnabled: true,
 
-  // whether or not redis is enabled for caching generated preview images (optional)
-  // NOTE: if you enable redis, you need to set the `REDIS_HOST` and `REDIS_PASSWORD`
-  // environment variables. see the readme for more info
+  // 생성된 미리보기 이미지를 캐싱하기 위해 redis를 사용할지 여부(선택 사항)
+  // 참고: redis를 활성화하는 경우 `REDIS_HOST` 및 `REDIS_PASSWORD`를 설정해야 합니다.
+  // 환경 변수. 자세한 내용은 읽어보기를 참조하십시오.
   isRedisEnabled: false,
 
   // map of notion page IDs to URL paths (optional)
@@ -48,8 +48,8 @@ export default siteConfig({
   // }
   pageUrlOverrides: null,
 
-  // whether to use the default notion navigation style or a custom one with links to
-  // important pages
+  // 기본 개념 내비게이션 스타일을 사용할지 또는 링크가 있는 사용자 지정 스타일을 사용할지 여부
+  // 중요한 페이지
   navigationStyle: 'default'
   // navigationStyle: 'custom',
   // navigationLinks: [
