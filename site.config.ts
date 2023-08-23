@@ -10,11 +10,11 @@ export default siteConfig({
 
   // basic site info (required)
   name: 'sjdev',
-  domain: 'nextjs-notion-starter-kit.transitivebullsh.it',
+  domain: 'https://judev.vercel.app/',
   author: 'Ju Seongjin',
 
   // open graph metadata (optional)
-  description: 'Example Next.js Notion Starter Kit Site',
+  description: 'Ju Seong Jin Tech Blog',
 
   // social usernames (optional)
   github: 'Seongjin-ju',
